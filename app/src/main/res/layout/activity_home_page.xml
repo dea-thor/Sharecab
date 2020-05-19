@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    t
+    tools:context=".HomePage">
+
+
+
+
+    
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        app:itemTextColor="@color/colorPrimaryDark"
+        app:itemTextAppearance="@style/menu_text_style"
+        app:menu="@menu/drawer_menu"
+        app:itemIconTint="@color/colorPrimaryDark"
+        app:headerLayout="@layout/header"
+        android:layout_gravity = "start"
+
+        >
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3sp"
+        android:background="@color/colorPrimaryDark"></LinearLayout>
+
+
+
+
+
+        <com.google.android.material.tabs.TabLayout
+
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabSelectedTextColor="@color/colorPrimaryDark"
+            app:tabTextColor="@color/colorPrimaryDark" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/colorPrimaryDark"></LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+    </androidx.viewpager.widget.ViewPager>
+        
+        
+       
+
+</LinearLayout>
+
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout >
