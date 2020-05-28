@@ -10,7 +10,7 @@ Onboarding screens
 ![](images/ob01.png)
 
 
-![](images/ob2png)
+![](images/ob2.png)
 
 
 ![](images/ob3.png)
