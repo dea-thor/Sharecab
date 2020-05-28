@@ -1,5 +1,5 @@
 # Sharecab
-This is one of my main project where you can pre share your cab with the persons with same preferences.
+This is one of my main project where you can pre share your cab with the persons with same preferences. Firebase backend is used for login and information storage. 
 
 Splash Screen
 
