@@ -19,6 +19,16 @@ Login
 
 ![](images/login.png)
 
-signup
+<b>Signup</b>
 
 ![](images/signup.png)
+
+<b>HomePage</b>
+<p> The home page is made with tab layout and menu items
+
+![](images/homepage.jpg)
+
+<b>Navigation drawer</b>
+
+
+![](images/navigation.jpg)
